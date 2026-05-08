@@ -26,4 +26,4 @@ If this policy changes, the updated version will be published in the GitHub repo
 
 ## Contact
 
-Open an issue at https://github.com/yourusername/contextclip/issues
+Open an issue at https://github.com/abhay-lal/ContextClip/issues

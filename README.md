@@ -29,7 +29,7 @@ ContextClip replaces that with one keyboard shortcut:
 *(Coming soon — link will be added here)*
 
 ### Load unpacked (development)
-1. Clone this repo: `git clone https://github.com/yourusername/contextclip`
+1. Clone this repo: `git clone https://github.com/abhay-lal/ContextClip`
 2. Open Chrome → `chrome://extensions`
 3. Enable **Developer mode** (top right)
 4. Click **Load unpacked** → select the repo folder

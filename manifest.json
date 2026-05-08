@@ -3,7 +3,7 @@
   "name": "ContextClip — UI Bug Snipping Tool for AI",
   "version": "1.0.0",
   "description": "Drag-select any UI area, add a comment, and paste a screenshot + structured AI prompt into Cursor, ChatGPT, or Claude.",
-  "homepage_url": "https://github.com/yourusername/contextclip",
+  "homepage_url": "https://github.com/abhay-lal/ContextClip",
   "permissions": ["activeTab", "scripting", "clipboardWrite", "storage", "downloads"],
   "host_permissions": [
     "http://localhost/*",
