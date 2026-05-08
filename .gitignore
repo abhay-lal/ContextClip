@@ -1,0 +1,38 @@
+# ── Node ──────────────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-error.log
+yarn-debug.log*
+package-lock.json
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Chrome extension build artifacts ──────────────────────────────────────────
+*.crx
+*.pem
+*.zip
+dist/
+
+# ── Store assets (add screenshots manually; don't commit originals) ────────────
+store-assets/screenshots/*.png
+store-assets/screenshots/*.jpg
+store-assets/screenshots/*.jpeg
+
+# ── Editor ────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local

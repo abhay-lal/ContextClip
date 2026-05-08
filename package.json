@@ -1,0 +1,23 @@
+{
+  "name": "contextclip",
+  "version": "1.0.0",
+  "description": "ContextClip companion server — saves screenshots directly into your workspace so Cursor can read them by path.",
+  "main": "contextclip-server.js",
+  "scripts": {
+    "server": "node contextclip-server.js 7331 .",
+    "server:downloads": "node contextclip-server.js 7331"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["chrome-extension", "developer-tools", "ai", "cursor", "screenshot"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/contextclip"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/contextclip/issues"
+  },
+  "homepage": "https://github.com/yourusername/contextclip#readme"
+}

@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "ContextClip — UI Bug Snipping Tool for AI",
+  "version": "1.0.0",
+  "description": "Drag-select any UI area, add a comment, and paste a screenshot + structured AI prompt into Cursor, ChatGPT, or Claude.",
+  "homepage_url": "https://github.com/yourusername/contextclip",
+  "permissions": ["activeTab", "scripting", "clipboardWrite", "storage", "downloads"],
+  "host_permissions": [
+    "http://localhost/*",
+    "http://127.0.0.1/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "ContextClip (Alt+Shift+C to capture)",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": { "default": "Alt+Shift+F", "mac": "Alt+Shift+F" },
+      "description": "Open ContextClip popup"
+    },
+    "activate-capture": {
+      "suggested_key": { "default": "Alt+Shift+C", "mac": "Alt+Shift+C" },
+      "description": "Start capture immediately (no popup)"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["overlay.css", "icons/*.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
