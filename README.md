@@ -7,6 +7,18 @@
   Drag-select any UI area, describe the issue, and paste a screenshot + structured prompt directly into Cursor, ChatGPT, or Claude.
 </p>
 
+<p align="center">
+  <a href="https://chromewebstore.google.com/detail/jmlepnigfamofnllpfpdhboabgfhccpp">
+    <img src="https://img.shields.io/chrome-web-store/v/jmlepnigfamofnllpfpdhboabgfhccpp?label=Chrome%20Web%20Store&logo=google-chrome&logoColor=white&color=4285F4" alt="Chrome Web Store">
+  </a>
+  <a href="https://chromewebstore.google.com/detail/jmlepnigfamofnllpfpdhboabgfhccpp">
+    <img src="https://img.shields.io/chrome-web-store/rating/jmlepnigfamofnllpfpdhboabgfhccpp?label=Rating&logo=google-chrome&logoColor=white&color=4285F4" alt="Rating">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License">
+  </a>
+</p>
+
 ---
 
 ## What it does
@@ -26,7 +38,8 @@ ContextClip replaces that with one keyboard shortcut:
 ## Installation
 
 ### Chrome Web Store
-*(Coming soon — link will be added here)*
+
+**[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/jmlepnigfamofnllpfpdhboabgfhccpp)**
 
 ### Load unpacked (development)
 1. Clone this repo: `git clone https://github.com/abhay-lal/ContextClip`
@@ -118,17 +131,6 @@ contextclip/
 ├── package.json               npm scripts for companion server
 └── LICENSE                    MIT
 ```
-
----
-
-## Chrome Web Store submission checklist
-
-- [ ] Replace `homepage_url` in `manifest.json` with your real GitHub URL
-- [ ] Add 1–5 screenshots (1280×800 or 640×400) to `store-assets/screenshots/`
-- [ ] Host `store-assets/privacy-policy.md` at a public URL
-- [ ] Update `store-assets/description.md` with your store listing copy
-- [ ] Zip the extension: `zip -r contextclip.zip . -x "*.git*" -x "store-assets/*" -x "node_modules/*"`
-- [ ] Upload at [Chrome Developer Dashboard](https://chrome.google.com/webstore/devconsole)
 
 ---
 
